@@ -4,7 +4,7 @@
   "description": "Iskalo Blog is a personal and engaging platform that offers a unique perspective on various topics, including travel experiences, lifestyle recommendations, and personal insights. The blog is designed to provide readers with valuable tips and recommendations, creating a personal brand that resonates with the audience.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "dev": "node --watch --env-file=.env server.js"
   },
   "author": "Dev Iskalo",
