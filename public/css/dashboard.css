@@ -1,5 +1,7 @@
 body {
     background: #ececec;
+    align-items: center;
+    justify-content: center;
 }
 
 .login {
@@ -10,7 +12,20 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     z-index: 99;
     background: #fff;
+}
+
+.firebaseui-idp-button:hover {
+    background: #000 !important;
+}
+
+.firebaseui-idp-text:hover {
+    color: #fff !important;
+}
+
+.firebaseui-container {
+    align-items: center;
+    justify-content: center;
 }
